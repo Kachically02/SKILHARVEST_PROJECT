@@ -1,0 +1,53 @@
+The following are 50 most commonly used git commands:
+
+
+1. *git init*: Initializes a new Git repository.
+2. *git clone*: Clones a repository into a new directory.
+3. *git add*: Adds file changes to the staging area.
+4. *git commit*: Records changes to the repository.
+5. *git status*: Shows the status of changes as untracked, modified, or staged.
+6. *git diff*: Shows the difference between commits, the index, and working directory.
+7. *git log*: Shows the commit history.
+8. *git branch*: Lists, creates, or deletes branches.
+9. *git checkout*: Switches branches or restores working tree files.
+10. *git merge*: Joins two or more development histories together.
+11. *git stash*: Stashes changes in a dirty working directory.
+12. *git tag*: Creates, lists, deletes, or verifies a tag object signed with GPG.
+13. *git remote*: Manages sets of tracked repositories.
+14. *git fetch*: Downloads objects and refs from another repository.
+15. *git pull*: Fetches from and integrates with another repository or a local branch.
+16. *git push*: Updates remote refs along with associated objects.
+17. *git reset*: Resets current HEAD to the specified state.
+18. *git rebase*: Reapplies commits on top of another base tip.
+19. *git cherry-pick*: Apply the changes introduced by some existing commits.
+20. *git revert*: Revert some existing commits.
+21. *git blame*: Show what revision and author last modified each line of a file.
+22. *git show*: Shows various types of objects.
+23. *git commit --amend*: Adds changes to the previous commit.
+24. *git reflog*: Manages reflog information.
+25. *git config*: Sets configuration values for user, system, or global.
+26. *git remote add*: Adds a remote repository reference.
+27. *git remote show*: Shows remote branches, along with various remote references.
+28. *git remote update*: Fetches and updates remote references.
+29. *git remote remove*: Removes the remote repository reference.
+30. *git remote rename*: Renames the remote repository reference.
+31. *git submodule*: Initializes, updates, or inspects submodules.
+32. *git clean*: Removes untracked files from the working directory.
+33. *git bisect*: Finds by binary search the change that introduced a bug.
+34. *git gc*: Cleans up unnecessary files and optimizes the local repository.
+35. *git archive*: Creates an archive of the specified format.
+36. *git help*: Displays help information.
+37. *git version*: Shows the installed version of Git.
+38. *git fsck*: Verifies the connectivity and validity of the objects in the database.
+39. *git grep*: Print lines matching a pattern.
+40. *git instaweb*: Runs a web server with an interface into the repository.
+41. *git prune*: Removes objects that are no longer pointed to by any object in the database.
+42. *git daemon*: A really simple server for Git repositories.
+43. *git update-server-info*: Update auxiliary info file to help dumb servers.
+44. *git update-ref*: Update the object name stored in a ref safely.
+45. *git check-ignore*: Debugging why a given file is ignored.
+46. *git check-mailmap*: Show canonical names and email addresses of contacts.
+47. *git fmt-merge-msg*: Creates a merge commit message.
+48. *git mailinfo*: Extracts patch and authorship from a single e-mail message.
+49. *git mailsplit*: Simple UNIX mbox splitter program.
+50. *git merge-file*: Run a three-way file merge.
