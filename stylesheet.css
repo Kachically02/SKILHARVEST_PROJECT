@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(114, 110, 110);
+   
+}
+form{
+    background-color: rgb(131, 241, 131);
+    padding: 30px 30px;
+    margin: 70px 70px;
+    border: black solid;
+    border-radius: 20px;
+}
+input{
+    margin-top: 10px;
+    padding: 10px 10px;
+    border: solid grey;
+    border-radius: 10px;
+}
+label{
+    font-size: large;
+    font-weight: bold;
+    margin-right: 10px;
+}
+textarea{
+    margin-top: 10px;
+    border: rgb(43, 41, 41) solid;
+    border-radius: 10px;
+}
+.button{
+    margin-bottom: 10px;
+}
