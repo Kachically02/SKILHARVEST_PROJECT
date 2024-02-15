@@ -2,37 +2,139 @@
     margin: 0;
     padding: 0;
     border: none;
-    background-color: aqua;
+    
 } 
 .head_section{
     display: flex;
     justify-content: space-between;
     margin-left: 70px;
     margin-right: 70px;
+    margin-top: 40px;
         
+}
+.head_section img{
+    width: 50px;
+    padding-top: 2rem;
 }
 .head_section h2{
     margin: 20px;
 }
 .head_section .box{
-    background-color: white;
+    background-color: rgb(245, 240, 240);
     margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: rgb(119, 118, 118) 2px 2px;
+}
+.head_section p{
+    padding: 20px;
 }
 .aboutUs{
     display: flex;
+    justify-content: space-between;
+    margin:10rem 2rem;
+    
 }
-
-
-
-
-
-
-
-
+.aboutUs img{
+    width: 45rem;
+    
+}
+.aboutUs h2{
+    font-size: 5rem;
+    font-weight: bold;
+}
+.aboutUs p{
+    font-size: 1.5rem;
+}
+.aboutUs button{
+    background-color: black;
+    color: white;
+    padding: .5rem;
+}
+.aboutUs h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+.gallery_desc{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 4rem;
+}
+.gallery_desc p{
+    font-size: 1.5rem;
+}
+.gallery_desc h2{
+    font-size: 4rem;
+}
+.photos{
+    display: flex;
+    justify-content: space-between;
+}
+.photos .section1 img{
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    border: solid 2px solid;
+    margin: 0 10px;
+}
+.photos .section2 img{
+    width: 320px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 20px;
+    border: solid 2px solid;
+    margin: 0 10px;
+}
+.photos .section3 img{
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    border: solid 2px solid;
+    margin: 0 10px;
+}
+.photos .section4 img{
+    width: 280px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    border-radius: 20px;
+    border: solid 2px solid;
+}
 .footer{
     display: flex;
     justify-content: space-between;
     background-color: khaki;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding: 60px;
+    margin-top: 200px;
+}
+.footer ul{
+    list-style-type: none;
+}
+.footer input{
+    padding: 10px;
+    border-radius: 10px;
+}
+.footer button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+.footer .column{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.footer .column .input_button{
+    display: flex;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
