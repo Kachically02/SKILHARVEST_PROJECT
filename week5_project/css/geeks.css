@@ -1,0 +1,271 @@
+/*Hero section starts*/
+.hero .title{
+    padding-right: 9rem;
+}
+.hero .verdict{
+    font-size: .8rem;
+    margin-bottom: 2rem;
+}
+.hero .main{
+    font-size: 3rem;
+    margin-bottom: 1.2rem;
+    font-weight: 700;
+}
+.hero .Desc{
+    font-size: .9rem;
+    margin-bottom: 1.5rem;
+}
+.hero .ctas a{
+    background-color:#754ffe ;
+    color: white;
+    padding: .5rem 1rem;
+    text-decoration: none;
+}
+.hero .ctas a:hover{
+    background-color: blueviolet;
+
+}
+.hero .ctas a:nth-child(2){
+background-color: transparent;
+margin-left: 1rem;
+color: black;
+}
+.hero .ctas a:nth-child(2) img{
+    width: 1.5rem;
+    margin-right: .5rem;
+}
+
+/*Hero section ends*/
+
+/*Stats section starts*/
+.Stats img{
+    width: 5rem;
+    margin-bottom: 1rem;
+}
+.Stats .icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: rgb(223, 218, 218) 1px solid;
+    padding: 3rem 0;
+    margin-top: 10rem;
+}
+
+/*Stats section ends*/
+
+/*popular section starts*/
+.popular .Desc{
+    margin: 2rem 0;
+}
+.popular .nav{
+    background-color: lightgrey;
+    margin-top: 2rem;
+    border-radius: 10px;
+    margin-left: 1rem;
+}
+.popular .nav .nav-bar{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: .5rem;
+}
+.popular .nav .nav-bar .nav-item a{
+    color: gray;
+    margin-right: 1rem;
+}
+.popular .nav .nav-bar .nav-item a:hover{
+    color: blueviolet;
+    border-bottom: blueviolet 2px solid;
+}
+.popular .card-box{
+    margin-top: 4rem;
+}
+.popular .card-box .card-body .badge-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.popular .card-box .card-body .badge{
+    color: rgb(89, 184, 89);
+    background-color: rgb(227, 247, 227);
+}
+.popular .card-box .rating{
+    color: rgb(197, 197, 14);
+    margin-left: 1rem;
+}
+.popular .card-box .rating span{
+    color: black;
+}
+.popular .card-box .card-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.popular .card-box .card-footer small{
+    font-weight: 600;
+}
+/*popular section ends*/
+
+/*cta section starts*/
+.cta .cta-box{
+    background-color: blueviolet;
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.cta .cta-box .image{
+    position: relative;
+    margin-left: 6rem;
+}
+.cta .cta-box .action-desc{
+    color: white;
+}
+.cta .cta-box .action-desc p{
+    margin: 1rem 0;
+}
+.cta .cta-box .action-desc button{
+    border-radius: 5px;
+    border: none;
+    padding: .5rem 1rem;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+/*cta section ends*/
+
+/*testimonial section starts*/
+.testimonial{
+    background-color: rgba(220, 225, 226, 0.904);
+    margin-top: 6rem;
+}
+.testimonial .section1{
+    padding: 6rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.testimonial .section1 button{
+    border: none;
+    margin-left: 20rem;
+    background-color: blueviolet;
+    padding: .5rem 1rem;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.testimonial .section1 .star{
+    margin-bottom: 1rem;
+}
+.testimonial .section1 .star .rating{
+    color: rgba(235, 182, 10, 0.938);
+    font-size: 12px;
+}
+.testimonial .section1 .star span{
+    font-weight: 600;
+}
+.testimonial .section1 .star .span{
+    font-weight: 100;
+}
+.testimonial .section1 h6{
+    font-weight: 100;
+    margin-top: 1rem;
+}
+.testimonial .section2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+}
+.testimonial .section2 .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    width: 25rem;
+    margin-bottom: 8rem;
+    padding: 2rem;
+    
+}
+.testimonial .section2 .box img{
+    width: 4rem;
+    border-radius: 50px;
+}
+.testimonial .section2 .box p{
+    text-align: center;
+}
+/*testimonial section ends*/
+
+/*footer section starts*/
+.footer .box1{
+    margin-top: 4rem;
+}
+.footer .box1 .geeks p{
+    margin: 2rem 0;
+font-weight: 200;
+}
+.footer .box1 .geeks a{
+    margin-right: .5rem;
+    color: grey;
+}
+.footer .box1 .geeks a:hover{
+    color: #754ffe;
+}
+.footer .box1 .support{
+    display: flex;
+    flex-direction: column;
+   
+}
+.footer .box1 .support ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin-top: 1.5rem;
+    
+}
+.footer .box1 .support ul a{
+    color: rgb(29, 27, 27);
+    font-weight: 300;
+    text-decoration: none;
+}
+.footer .box1 .support ul a:hover{
+    color: #754ffe;
+}
+.footer .box1 .getapp p{
+    margin-top: 1.5rem;
+}
+.footer .box1 .getapp .app-logo{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5rem;
+    gap: .5rem;
+}
+.footer .box1 .getapp .app-logo img{
+    width: 9rem;
+}
+.footer .box2{
+    margin-top: 5rem;
+    border-top: grey 1px solid;
+    padding: .8rem 0;
+}
+.footer .box2 .footer-links ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.footer .box2 .footer-links ul a{
+    color: rgb(29, 27, 27);
+    font-weight: 300;
+    text-decoration: none;   
+}
+.footer .box2 .footer-links ul a:hover{
+    color: #754ffe;   
+}
+/*footer section s*/
